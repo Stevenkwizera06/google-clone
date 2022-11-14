@@ -1,0 +1,23 @@
+{
+  "name": "google-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev":"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stevenkwizera06/google-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stevenkwizera06/google-clone/issues"
+  },
+  "homepage": "https://github.com/Stevenkwizera06/google-clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
