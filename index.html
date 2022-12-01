@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="dist/output.css" rel="stylesheet">
+  <title>Google</title>
+</head>
+
+<body class="flex flex-col justify-between h-screen font-Roboto bg-zinc-800">
+
+  <header class="flex justify-between items-center px-4 w-full md:justify-end">
+    <nav class="flex gap-4 items-center md:hidden">
+      <img class="w-6 fill-red-400" src="./images/menu.svg" alt="">
+
+      <a href="#" class="text-xs font-semibold py-4 px-2 text-primary-blue border-b-2 border-primary_blue">ALL</a>
+      <a href="#" class="text-xs font-semibold py-4 text-gray-300">IMAGES</a>
+    </nav>
+
+    <nav class="flex gap-4 md:py-4 items-center">
+      <a href="#" class="hidden md:block text-white text-xsm hover:underline">Gmail</a>
+      <a href="#" class="hidden md:block text-white text-xsm hover:underline">Images</a>
+      <div class="hover:bg-zinc-700 p-2 rounded-full">
+        <img class="w-6 " src="./svgs/menu.svg" alt="">
+      </div>
+
+      <a href="#" class="">
+        <img src="./images/user.jpeg" alt="user" class="rounded-full w-10">
+      </a>
+    </nav>
+  </header>
+
+  <main class="flex flex-col mt-16 items-center  flex-1">
+    <div class="w-full flex flex-col gap-6 items-center ">
+      <img class="w-40 md:w-72" src="./images/light google.png" alt="Google logo">
+      <div
+        class="md:w-full w-11/12 h-12 flex items-center p-4 gap-2 border border-gray-300 max-w-xl rounded-full px-4 py-1 hover:shadow-md hover:bg-zinc-700 hover:border">
+
+        
+          <img class="w-6 h-6 fill-dark-gray" src="./svgs/search.svg" alt="">
+          <input type="text" class=" w-full border-none outline-none text-white text-base bg-transparent ml-12">
+          <div class="flex space-x-2">
+            <img class="hidden md:block w-4 h-5  mt-1 cursor-pointer" src="./images/Google_mic.svg.png" alt="">
+            <img class=" mr-4  w-5 ml-4 cursor-pointer" src="./images/camera.svg" alt="">
+          </div>
+
+        
+      </div>
+      <div class="hidden md:block space-x-2">
+        <button type="button"
+          class="text-sm px-5 py-2 cursor-pointer hover:border-gray-500 text-white rounded  bg-zinc-700 border border-zinc-700 shadow-sm">Google
+          Search</button>
+        <button type="button"
+          class="text-sm px-5 py-2 cursor-pointer hover:border-gray-500 text-white rounded  bg-zinc-700 border border-zinc-700 shadow-sm">I'm
+          Feeling Lucky</button>
+      </div>
+      <div class="flex text-xsm self-center justify-center gap-3 flex-wrap">
+        <p class="text-white">Google offered in:</p>
+        <a href="#" class="text-secondary-dark-blue hover:underline">Francais</a>
+        <a href="#" class="text-secondary-dark-blue hover:underline">Kiswahili</a>
+        <a href="#" class="text-secondary-dark-blue hover:underline">Ikinyarwanda</a>
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="mt-10 bg-black text-gray-300">
+    <p class="px-4 py-2 md:px-8">Rwanda</p>
+    <div class="border-y py-5 md:py-0 md:border-y-0 md:border-b border-gray-600"></div>
+    <div class="px-4 md:px-10 flex flex-col md:flex-row md:justify-between gap-4 text-xsm md:text-sm py-4">
+      <div class="flex space-x-4 justify-center flex-wrap md:hidden">
+        <a href="#" class="hover:underline">Dark theme:on</a>
+        <a href="#" class="hover:underline">Settings</a>
+        <a href="#" class="hover:underline">Privacy</a>
+        <a href="#" class="hover:underline">Terms</a>
+      </div>
+      <div class="hidden md:flex space-x-6 justify-center flex-wrap">
+        <a href="#" class="hover:underline">About</a>
+        <a href="#" class="hover:underline">Advertising</a>
+        <a href="#" class="hover:underline">Business</a>
+        <a href="#" class="hover:underline">How Search works</a>
+      </div>
+      <div class="hidden md:flex space-x-6 justify-center flex-wrap">
+        <a href="#" class="hover:underline">Privacy</a>
+        <a href="#" class="hover:underline">Terms</a>
+        <a href="#" class="hover:underline">Settings</a>
+      </div>
+
+      <div class="flex space-x-4 justify-center flex-wrap md:hidden">
+        <a href="#" class="hover:underline">Advertising</a>
+        <a href="#" class="hover:underline">Business</a>
+        <a href="#" class="hover:underline">About</a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
